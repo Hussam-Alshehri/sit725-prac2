@@ -79,3 +79,9 @@ linked.add(JSON.stringify(accounts[i]));// stringify convert the data into a str
 
 linked.printList();
 
+/*Why do we use a linked list instead of an array ?
+
+Arrays are fixed-size memory. On the other hand, Linked lists are dynamic size memory and flexible 
+and can extend by adding new nodes without wasting a new block of memory.
+for example, adding and deleting a node in an array take more time ,
+but at the other hand, these operations perform fast in Linked lists.*/
